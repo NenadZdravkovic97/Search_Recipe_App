@@ -17,7 +17,7 @@ let templateHTML = data => {
             <h1 class="title">${item.recipe.label}</h1>
             <a href="${
                 item.recipe.url
-            }" target="_blank" class="view-button">View Recipe</a>
+            }" target="_blank" class="view-button">View</a>
         </div>
         <p class="item-data">Calories: ${Math.ceil(item.recipe.calories)}</p>
     </div>
